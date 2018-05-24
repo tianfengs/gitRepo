@@ -13,3 +13,4 @@
 >$ git diff temp                //比较master分支和temp分支的不同
 >$ git merge temp               //合并temp分支到master分支
 >$ git branch -d temp           //删除temp
+>
