@@ -129,22 +129,6 @@
 
 ----------
 
-
-#fetch更新本地仓库两种方式：
-
->方法一
-
-	$ git fetch origin master             //从远程的origin仓库的master分支下载代码到本地的origin master
-	$ git log -p master.. origin/master   //比较本地的仓库和远程参考的区别
-	$ git merge origin/master             //把远程下载下来的代码合并到本地仓库，远程的和本地的合并
-
->方法二
-
-	$ git fetch origin master:temp //从远程的origin仓库的master分支下载到本地并新建一个分支temp
-	$ git diff temp                //比较master分支和temp分支的不同
-	$ git merge temp               //合并temp分支到master分支
-	$ git branch -d temp           //删除temp
-
 # 软件改动流程
 
 ## 主线流程
@@ -176,11 +160,29 @@
 6. 如果审核未通过，reset回滚，或者取消合并
 7. 审核通过，解决完冲突，push到远程dev分支
 
-
+---------------------------
 ## 其它规则
 本地不需要推送到远程的分支，每次commit，都写个单行-m注释就可以，合并的时候用no-ff，再写一个比较详细的合并说明就可以了
 
+---------------------------
 
+
+#fetch更新本地仓库两种方式：
+
+>方法一
+
+	$ git fetch origin master             //从远程的origin仓库的master分支下载代码到本地的origin master
+	$ git log -p master.. origin/master   //比较本地的仓库和远程参考的区别
+	$ git merge origin/master             //把远程下载下来的代码合并到本地仓库，远程的和本地的合并
+
+>方法二
+
+	$ git fetch origin master:temp //从远程的origin仓库的master分支下载到本地并新建一个分支temp
+	$ git diff temp                //比较master分支和temp分支的不同
+	$ git merge temp               //合并temp分支到master分支
+	$ git branch -d temp           //删除temp
+
+--------------
 # 本地Check out, review, and merge
 > 本内容引用自：
 [http://10.168.1.76/help/user/project/merge_requests/index.md#tips](http://10.168.1.76/help/user/project/merge_requests/index.md#tips)
