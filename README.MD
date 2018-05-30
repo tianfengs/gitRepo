@@ -1,5 +1,7 @@
 # Git 一些资料
 
+[Release 分支](./ "12")
+
 # 阅读 A successful Git branching model笔记
  摘自[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/ "A successful Git branching model")
 
@@ -39,6 +41,7 @@
 	$ git push origin develop
 --no-ff可以使合并时，总是建立一个commit节点。
 ### Release分支
+<a title="12"> Release</a>
 分离自develop
 
 是用来准备进行产品发布前的分支。可以进行小bug修复和准备元数据，如版本号，产品出厂日期等等。
