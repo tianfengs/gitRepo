@@ -1,6 +1,6 @@
 # Git 一些资料
 
-[Release 分支](. "12")
+[Release 分支]("12")
 
 # 阅读 A successful Git branching model笔记
  摘自[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/ "A successful Git branching model")
