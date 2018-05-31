@@ -1,8 +1,10 @@
 # Git 一些资料
 
-[Release 分支](#aaa)
+* 1. [A successful Git branching model笔记](#1)
+* 1.1. [Feature 分支](#1.1)
+* 1.2. [Release 分支](#1.2)
 
-# 阅读 A successful Git branching model笔记
+# <a name="1"/>1. 阅读 A successful Git branching model笔记
 
 摘自[https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/ "A successful Git branching model")
 
@@ -17,7 +19,7 @@
 * Release 分支
 * Hotfix 分支
 
-### Feature分支
+### 1.1. Feature分支<a name="1.1"/>
 
 分离自develop分支。或者叫topic分支。
 
@@ -48,7 +50,7 @@ $ git push origin develop
 
 --no-ff可以使合并时，总是建立一个commit节点。
 
-### <a name="aaa">Release分支</a>  
+### 1.2. Release分支<a name="1.2"/> 
 
 分离自develop
 
