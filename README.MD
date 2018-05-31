@@ -1,6 +1,6 @@
 # Git 一些资料
 
-[Release 分支](#12)
+[Release 分支](#aaa)
 
 # 阅读 A successful Git branching model笔记
 
@@ -51,7 +51,7 @@ $ git push origin develop
 ### Release分支
 
 ```
-<div id="12">sdfdsf</div> 
+<div id="aaa">sdfdsf</div> 
 ```
 
 分离自develop
