@@ -50,10 +50,8 @@ $ git push origin develop
 
 ### Release分支
 
-```
 <div id="aaa">sdfdsf</div> 
 <a name="aaa">sdfdsf</a> 
-```
 
 分离自develop
 
