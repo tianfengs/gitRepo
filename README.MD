@@ -375,7 +375,7 @@ git checkout origin/merge-requests/1
 
 >参考网址：https://help.github.com/articles/ignoring-files/  
 
-![](gitRepo/ignore.png)  
+![](https://github.com/tianfengs/gitRepo/raw/master/ignore.png)  
 
 修改.gitignore文件后，增加被忽略的文件后，文件没有被忽略，因为，还要在cached里单独处理一下   
 ```
