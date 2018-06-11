@@ -27,6 +27,10 @@
 		* 
 		* [git mr origin 5](#4.3c)
 	* 4.4. [Checkout locally by modifying .git/config for a given repository](#4.4)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 62a0e61ea672042b0295a59d87e7f02a9863f870
 5. [Github关于ignore文件的说明](#5)
 6. [使用命令创建github代码仓库，push本地仓库到github远程代码仓库](#6)
 7. [附录文件说明](#7)
@@ -34,6 +38,14 @@
 	* ignore.png：第5节说明网页截图
 	* git服务器说明.doc:服务器配置的一些经验
 	* git远程删除分支后本地git branch -a 依然能看到的解决办法.MD：如题
+<<<<<<< HEAD
+=======
+=======
+* 5. [Github关于ignore文件的说明](#5)
+* 6. [使用命令创建github代码仓库，push本地仓库到github远程代码仓库](#6)
+* 7. [附录文件说明](#7)
+>>>>>>> gitlab
+>>>>>>> 62a0e61ea672042b0295a59d87e7f02a9863f870
 
 # <a name="1"/>1. 阅读 A successful Git branching model笔记
 
@@ -434,8 +446,18 @@ git remote add origin git@github.com:username/$repo_name.git
 　git push -u origin master
 ```
 
+<<<<<<< HEAD
 # 7. <a name="7"/>附录文件说明  
 * 范例.ssh文件夹：多用户在同一台电脑，以及，登录多个远程服务器配置范例（科瑞康公司电脑配置）
+=======
+<<<<<<< HEAD
+# 7. <a name="7"/>附录文件说明  
+* 范例.ssh文件夹：多用户在同一台电脑，以及，登录多个远程服务器配置范例（科瑞康公司电脑配置）
+=======
+# 7. 附录文件说明  
+* .ssh文件夹：多用户在同一台电脑，以及，登录多个远程服务器配置范例（科瑞康公司电脑配置）
+>>>>>>> gitlab
+>>>>>>> 62a0e61ea672042b0295a59d87e7f02a9863f870
 * ignore.png：第5节说明网页截图
 * git服务器说明.doc:服务器配置的一些经验
 * git远程删除分支后本地git branch -a 依然能看到的解决办法.MD：如题
