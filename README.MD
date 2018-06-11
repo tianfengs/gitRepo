@@ -193,7 +193,8 @@ Deleted branch hotfix-1.2.1 (was abbe5d6).
 
 ### <a name="1.4"/>1.4. 总结
 
->http://10.168.1.76/help/workflow/gitdashflow.png
+>http://10.168.1.76/help/workflow/gitdashflow.png  
+
 ![](https://github.com/tianfengs/gitRepo/raw/master/gitdashflow.png)
 
 ---
