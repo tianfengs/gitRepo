@@ -1,0 +1,20 @@
+# 配置本地服务器gitlab，tianfengs
+Host 10.168.1.76                 
+    HostName 10.168.1.76
+    IdentityFile C:\\Users\\krk10\\.ssh\\id_rsa_tianfengs
+    PreferredAuthentications publickey
+    User username1
+
+# 配置本地服务器gitlab，lisi
+Host 10.168.1.76 
+    HostName 10.168.1.76
+    IdentityFile C:\\Users\\krk10\\.ssh\\id_rsa_lisi
+    PreferredAuthentications publickey
+    User username2
+
+# 配置github.com
+Host github.com 
+    HostName github.com
+    IdentityFile C:\\Users\\krk10\\.ssh\\id_rsa_tianfengs
+    PreferredAuthentications publickey
+    User tianfengs
