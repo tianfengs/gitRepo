@@ -34,6 +34,7 @@
 	* ignore.png：第5节说明网页截图
 	* git服务器说明.doc:服务器配置的一些经验
 	* git远程删除分支后本地git branch -a 依然能看到的解决办法.MD：如题
+8. [本地创建远程仓库](#8)
 
 # <a name="1"/>1. 阅读 A successful Git branching model笔记
 
@@ -440,3 +441,19 @@ git remote add origin git@github.com:username/$repo_name.git
 * ignore.png：第5节说明网页截图
 * git服务器说明.doc:服务器配置的一些经验
 * git远程删除分支后本地git branch -a 依然能看到的解决办法.MD：如题
+
+# 8.<a name="8"/>本地创建远程仓库
+1. 本地创建远程库映射   
+```
+git remote add origin git@10.168.1.76:gitResp/localgit.git  
+```
+2.本地库提交一次   
+```
+git add .  
+git commit -m “xxx”  
+```
+3.推送并在服务器创建远程仓库   
+```
+git push -u origin master  
+```
+
