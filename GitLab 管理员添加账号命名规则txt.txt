@@ -4,6 +4,10 @@
 姓（拼音（全））+名（拼音首字母）
 如：黄玉芳 账号为：huangyf
 
+tianfengs 	tianfeng 	tianfeng_s@foxmail.com
+
+lisi 			lisilisi 		lisi@mai.com 
+
 邮箱：
 账号@test.com
 如：huangyf@test.com
