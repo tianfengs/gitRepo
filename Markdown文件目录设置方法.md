@@ -10,7 +10,7 @@
 
 ​	[-  使用Visual Studio Code 的 TOC扩展](#使用Visual)
 
-​	[- Pandoc 命令](#Pandoc命令)
+​	[- Pandoc命令](#Pandoc命令)
 
 
 
@@ -19,11 +19,11 @@
 
      - 设置目录
 
-       [A successful Git branching model笔记](#1)
+       [Feature分支](#1)
 
      - 设置目标
 
-     ​	<a name="1"/>1.1. Feature分支
+     ​	<a name="1"/> Feature分支
 
    - ##### 方法二：（推荐用这个方法）
 
@@ -33,7 +33,7 @@
 
      - 设置目标    
 
-       目录表中的item1
+       ###### 目录表中的item1
 
 2. ## 自动生成
    - ##### 使用Visual Studio Code 的 TOC扩展
@@ -61,4 +61,3 @@
    	注：pandoc 默认生成三级目录。以上述命令为例，如果使用如下命令则只会生成三级目录：
    	pandoc -s --toc FAQ.md -o FAQ.md
    	```
-
