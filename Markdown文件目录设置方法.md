@@ -10,7 +10,7 @@
 
 ​	[-  使用Visual Studio Code 的 TOC扩展](#使用Visual)
 
-​	[- Pandoc命令](#Pandoc命令)
+​	[- Pandoc 命令](#Pandoc命令。)
 
 
 
@@ -25,7 +25,7 @@
 
      ​	<a name="1"/> Feature分支
 
-   - ##### 方法二：（推荐用这个方法）
+   - ##### 方法二： （推荐用这个方法）
 
      - 设置目录
 
