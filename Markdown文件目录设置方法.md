@@ -10,7 +10,7 @@
 
 ​	[-  使用Visual Studio Code 的 TOC扩展](#使用Visual)
 
-​	[- Pandoc 命令](#Pandoc命令。)
+​	[- Pandoc命令](#Pandoc命令。)
 
 
 
