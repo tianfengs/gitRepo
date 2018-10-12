@@ -1,0 +1,25 @@
+﻿Main.dpp
+Main.dcu
+PATH.dcu
+PreviewUnit.dcu
+QR_ZLBG.dcu
+UnitRCNL.dcu
+Var_Global.dcu
+*.class
+F*.dcu
+D*.dcu
+F*.ddp
+D*.dpp
+*.mp4
+*.psd
+/Image/*.bmp
+/Image/*.jpg
+Temp*
+*.map
+*.~*
+## 1. 在已忽略文件夹中不忽略指定文件夹
+#/Picture/*
+#!/Picture/1000B界面/
+## 2. 在已忽略文件夹中不忽略指定文件
+#!/Picture/*.TTF
+
